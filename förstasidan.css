@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+}
+
+#heading2 {
+  color: orange;
+}
+
+body {
+  background-image: linear-gradient(cyan, violet, white);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid;
+}
+
+#section1 {
+  width: 50%;
+  border: 5px dotted cyan;
+}
+
+#section2 {
+  width: 50%;
+  border: 5px dotted cyan;
+}
+
+td {
+  border: solid 3px blue;
+}
+
+th {
+  border: solid 3px blue;
+}
+
+/* .tr-grey { */
+/* background-color: lightgray; */
+/* } */
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: lightgray;
+}
+
+#gif {
+  width: 480; height: 480; 
+}
